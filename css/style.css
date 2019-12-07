@@ -1,0 +1,687 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, 
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: #FFFFFF;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    min-width: 360px;
+}
+.container {
+    background-color: #F6F2F2;
+    padding-top: 31px;
+}
+.content {
+    min-height: calc(100vh - 344px);
+}
+
+header {
+    display: flex;
+    max-width: 1249px;
+    min-height: 89px;
+    align-items: center;
+    background-color: #000000;
+    justify-content: center;
+    padding: 0px 3vw;
+    margin: 0 auto;
+}
+.site-menu > ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #e0e0e0;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+.site-menu li {
+     margin: 0 15px;   
+}
+.site-menu a {
+    text-decoration: none;
+    color: #e0e0e0;
+}
+.menu-item a{
+    display: block;
+    padding: 45px 20px;
+}
+.site-menu a:hover {
+    background-color: #ff3f40;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1249px;
+    padding-top: 110px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.intro-wrapper {
+    position: relative;
+    bottom: 11px;
+    max-width: 551px;
+    vertical-align: top;
+    margin-bottom: 20px;
+    margin-right: 75px;
+}
+
+.intro-wrapper h1 {
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.intro-text {
+    font-size: 16px;
+    opacity: 0.7;
+    padding-bottom: 61px;    
+}
+
+.contact-link {
+    color: #ffffff;
+    display: inline-block;
+    background-color: #ff3f40;
+    width: 230px;
+    padding: 18px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.video-banner img {
+    max-width: 551px;
+    height: 356px;
+    box-shadow: 0 -10px 10px 0 #C4C4C4;
+}
+
+/*service*/
+ 
+/*  .services div {
+  padding: 10px;
+  border: 1px solid black;
+}
+*/
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1249px;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.services h2 {
+    font-weight: bold;
+    font-size: 42.1902px;
+    text-transform: uppercase;
+    padding-bottom: 52px;
+}
+.services h3 {
+    font-weight: 600;
+    font-size: 24.0692px;
+}
+.servises p {
+    font-size: 16px;
+}
+.service-part1 {
+    max-width: 550px;
+    margin-right: 10px;
+    margin-bottom: 4%;
+}
+.service-part1 p {
+    padding-bottom: 63px;
+}
+.link-learnmore {
+    color: #ff3f40;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 230px;
+    padding: 18px 0;
+    border: 3px solid #ff3f40;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18.0412px;
+}
+.service-part2 {
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1;
+}
+.service {
+    padding-left: 20px;
+    width: 300px;
+    padding-bottom: 52px;
+    flex: 1 1 300px;
+}
+.service-part2 h3 {
+    padding-bottom: 13px;
+}
+.service-part2 p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.service img {
+    padding-bottom: 29px;
+}
+.line {
+    margin: 0 auto;
+    width: 1251px;
+    height: 5px;
+    background-color: #ECECEC;
+    border: 0px;
+}
+
+/*Future Products*/
+/* .products div {
+  padding: 10px;
+  border: 1px solid black;
+}
+*/
+.products {
+    max-width: 1249px;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.products h2 {
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    padding-bottom: 29px;
+    text-align: center;
+}
+.products-head {
+    margin-bottom: 86px;
+}
+.products-head p {
+    max-width: 530px;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 34px;
+    text-align: center;
+    margin: 0 auto;
+}
+.products-line {
+    margin: 0 auto;
+    width: 134px;
+    height: 5px;
+    background-color: #FF2D2D;
+    border: 0px;
+}
+
+.products-menu > ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.products-menu a {
+    text-decoration: none;
+    color: #000000;
+}
+.products-menu li {
+     margin: 0 15px;   
+}
+.products-menu a.main {
+     color: #FF2D2D;
+}
+.products-menu a:hover {
+    color: #FF2D2D;
+}
+.products-img {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4%;
+}
+.products-img img {
+    padding: 3px;
+}
+
+/*Team*/
+/* .team div {
+  padding: 10px;
+  border: 1px solid black;
+}
+*/
+.team,
+.contact {
+    max-width: 1249px;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.team h2 {
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    padding-bottom: 34px;
+    text-align: left;
+}
+.team-head {
+    margin-bottom: 50px;
+}
+.team-head p {    
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 38px;
+    text-align: left;
+}
+.team-line,
+.contact-line {
+    width: 134px;
+    height: 5px;
+    background-color: #FF2D2D;
+    border: 0px;
+}
+.team-body {
+    display: flex;
+}
+.team-people h3 {
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    text-align: left;
+}
+.team-people p {  
+    padding-bottom: 46px;
+}
+.team-banner {
+margin-right: 30px;
+}
+.team-menu > ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: left;
+    font-size: 18px;
+    font-style: italic;    
+}
+.team-menu {
+    max-width: 500px; 
+}
+.team-menu a {
+    text-decoration: none;
+    color: #000000;
+}
+.team-menu li {
+     margin: 0 15px;
+ }
+.team-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+.team-photos img {
+    padding: 1px;
+}
+
+/*Subscribe*/
+/*.subscribe div {
+  padding: 10px;
+  border: 1px solid white;
+}
+*/
+.subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1579px;
+    min-height: 516px;
+    background-color:  #313030;
+    margin: auto;
+    margin-top: 6%;
+
+}
+.subscribe-title {
+    margin-bottom: 2%;
+}
+.subscribe-title h1 {
+    font-weight: bold;
+    font-size: 42px;
+    color: #FFFFFF;
+}
+.subscribe-text {
+    margin-bottom: 3%;
+}
+.subscribe-text p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.subscribe-emailform input[type="email"] {
+    flex: 0 1 524px;
+    width: 524px;
+    height: 82px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 0px;
+    margin-right: 20px;
+    font-size: 16px;
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
+
+.subscribe-emailform button[type="submit"] {
+    width: 217px;
+    height: 82px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    background-color: #FF2D2D;
+    border: 0px;
+    margin-bottom: 10px;
+}
+
+/*Contact*/
+/*.contact div {
+  padding: 10px;
+  border: 1px solid black;
+}
+*/
+.contact {
+    max-width: 1449px;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+.contact h2 {
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    padding-bottom: 34px;
+    text-align: left;
+}
+.contact p {
+    font-size: 16px;
+    line-height: 28px;    
+    text-align: left;
+}
+.contact-line {
+    margin-bottom: 73px;
+}
+
+.contact-header-text {
+    max-width: 900px;
+    padding-bottom: 38px;
+}
+.contact-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.contact-block-part1 {
+    max-width: 734px;
+    margin-right: 100px;  
+}
+.conact-namemail {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 43px;
+}
+.conact-namemail > input[name="name"],
+.conact-namemail > input[name="email"] {
+    width: 300px;
+    height: 71px;
+    background-color: #F6F2F2;
+    border-radius: 8px;    
+    border: 0px;
+    font-size: 16px;
+    padding-left: 44px;
+    margin-bottom: 40px; 
+}
+.conact-namemail > textarea[name="message"] {
+    width: 734px;
+    height: 252px;
+    background-color: #F6F2F2;       
+    font-size: 16px;
+    background-color: #F6F2F2;
+    border-radius: 8px;    
+    border: 0px;
+    padding-top: 35px;
+    padding-left: 44px;
+    margin-bottom: 40px;
+}
+.conact-namemail > button[type="submit"] {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    background-color: #ff3f40;
+    width: 734px;
+    height: 75px;        
+    border-radius: 8px;
+    border: 0px;
+}
+.contact-block-part2 {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-block-info {
+    width: 510px;
+    height: 485px;
+    background-color: #2D2D2D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+.contact-block-info h4{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;    
+}
+.contact-block-info p{
+    color: #FFFFFF;    
+    font-size: 16px;
+
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    align-items: flex-end;
+    background-color: #313030;
+    max-width: 1586px;
+    height: 113px;
+    margin: 0 auto;
+}
+.copyright {
+    margin-left: 171px;
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+.copyright p {
+    color: #B8B8B8;
+    font-size: 16px;
+    margin: 0;
+}
+.social {
+    margin: 0;
+    margin-right: 168px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50%;
+}
+.social img {
+    width: 33px;
+    height: 33px;   
+} 
+.social a:nth-child(n+2) {
+    margin-left: 18px;
+}
+
+/*meadia*/
+@media screen and (max-width: 1300px) {
+    .container {
+        padding-top: 20px;
+    }
+    .video-banner img {
+        width: 90%;
+        height: auto;
+    }
+    .intro-wrapper {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 900px) {
+    .team-body {
+        flex-wrap: wrap;
+    }
+    .subscribe-email {
+        width: 340px;
+        height: 62px;
+    }  
+    .subscribe-link {
+        width: 180px;
+        height: 62px;
+    }  
+}
+@media screen and (max-width: 770px) {
+
+    .conact-namemail > textarea[name="message"] {
+        width: 600px;    
+    }
+    .conact-namemail > button[type="submit"] {    
+        width: 10vh;
+        height: 65px; 
+    }
+}
+@media screen and (max-width: 700px) {
+    .container {
+        padding-top: 10px;
+    }
+    .intro {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    }
+    .intro-text {
+        font-size: 14px;
+        padding-bottom: 20px;    
+    }
+    .intro-wrapper h1 {
+        font-size: 40px;
+        font-weight: 600;
+        justify-content: center;
+    }
+    .site-menu > ul {
+        font-size: 12px;
+    }
+    .menu-item a{
+        padding: 45px 10px;
+    }
+    .social a:nth-child(n+2) {
+        margin-left: 2px;
+    }
+    .social {
+        margin-right: 4px;
+        flex-wrap: wrap;
+    }
+    .copyright {
+        margin-left: 10px;
+    }
+    .copyright p {
+        font-size: 14px;
+    }
+    .subscribe {
+        min-height: 416px;
+    }
+    .conact-namemail > input[name="name"],
+    .conact-namemail > input[name="email"] {
+        width: 340px;
+        height: 71px;
+        padding-left: 10px;        
+    }
+    .conact-namemail > textarea[name="message"] {
+        width: 340px;
+        height: 160px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .conact-namemail > button[type="submit"] {    
+        width: 350px;
+        height: 45px; 
+    }
+}
+@media screen and (max-width: 610px) {
+    .subscribe-emailform input[type="email"] {      
+        width: 300px;
+        height: 62px;
+        padding-left: 15px;
+    }
+    .subscribe-emailform button[type="submit"] {
+        width: 180px;
+        height: 62px;
+    }           
+}
+@media screen and (max-width: 500px) {
+    .container {
+        padding-top: 0px;
+    }
+    .site-menu > ul {
+        font-size: 10px; 
+    }
+}
+@media screen and (max-width: 480px) {
+  
+    .site-menu > ul {
+        font-size: 10px; 
+    }
+    .social a {
+        justify-content: center;     
+        align-items: center;
+    }
+    .social img {
+        width: 25px;
+        height: 25px;
+    }
+    .products-img {
+        width: 95%;
+        height: auto;
+    }
+    .team-banner img{
+        width: 95%;
+        height: auto;
+    }
+    .subscribe {
+    min-height: 316px;
+    }
+    .subscribe-title h1 {
+        font-size: 24px;        
+    }
+    .subscribe-text p {
+        font-size: 12px;      
+    }
+}
